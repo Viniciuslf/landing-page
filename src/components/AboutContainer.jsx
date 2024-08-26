@@ -1,18 +1,19 @@
 const AboutContainer = () => {
   return (
     <section className="about-container">
-      <h2>Sobre</h2>
+      <h2>Resumo de habilidades:</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, dolores!
-        Repellendus eius consequuntur, voluptate deserunt perferendis mollitia
-        debitis est autem aperiam necessitatibus beatae assumenda illo rem
-        architecto quis dolor quae.
+      Implementação de Práticas DevSecOps: Integração de segurança em pipelines CI/CD e automação de auditorias de segurança. SAST/DAST
+Criação e automação de testes.
+Desenvolvimento de APIs
+Modelagem de Ameaças e Desenvolvimento seguro ( Application Security)
+Experiência em bancos de dados relacionais e não relacionais;
+
+
+
       </p>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis
-        aperiam, odit nihil placeat, dolorum sequi reprehenderit fugiat,
-        distinctio provident impedit modi neque sapiente voluptate voluptates.
-        Maiores sint at dolores?
+      Trabalho com as seguintes tecnologias: Java, Python, Bash, SonarQube, AWS, Burp Suite, Spring, Nessus, OpenVAS - GV (Log360, Wazuh, Sentinel), Cypress, JavaScript, Bash, Maven, Gradle, Banco de Dados SQL (PostgreSQL e MySQL), OWASP, Google Cloud, Azure
       </p>
     </section>
   );

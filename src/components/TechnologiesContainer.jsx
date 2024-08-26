@@ -1,8 +1,8 @@
 import {
-  DiHtml5,
-  DiCss3,
+  DiLinux,
+  DiDocker,
   DiJsBadge,
-  DiNodejsSmall,
+  DiAndroid,
   DiMysql,
   DiReact,
 } from "react-icons/di";
@@ -10,10 +10,10 @@ import {
 import "../styles/components/technologiescontainer.sass";
 
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-  { id: "css", name: "CSS3", icon: <DiCss3 /> },
+  { id: "linux", name: "Linux", icon: <DiLinux /> },
+  { id: "docker", name: "Docker", icon: <DiDocker /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-  { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
+  { id: "Android", name: "Android", icon: <DiAndroid /> },
   { id: "mysql", name: "MySQL", icon: <DiMysql /> },
   { id: "react", name: "React", icon: <DiReact /> },
 ];
@@ -28,7 +28,7 @@ const TechnologiesContainer = () => {
             {tech.icon}
             <div className="technology-info">
               <h3>{tech.name}</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>                </p>
             </div>
           </div>
         ))}
